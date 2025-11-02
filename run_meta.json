@@ -1,0 +1,26 @@
+{
+  "seed": 1337,
+  "model": "gemma3:4b",
+  "base_url": "https://ai.sooners.us",
+  "samples_per_class": 10,
+  "accuracy_by_prompt": {
+    "prompt_01": 0.64,
+    "prompt_02": 0.58,
+    "prompt_03": 0.63,
+    "prompt_04": 0.59,
+    "prompt_05": 0.58
+  },
+  "best_prompt": "prompt_01",
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ]
+}
